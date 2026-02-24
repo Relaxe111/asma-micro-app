@@ -1,0 +1,14 @@
+name: Build and Publish
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    publish:
+        uses: Carasent-ASMA/asma-modules/.github/workflows/reusable-publish.yml@master
+        with:
+            publish_npm: false # This package uses symlinks only
+            package_name: "asma-micro-app"
+        secrets: inherit
