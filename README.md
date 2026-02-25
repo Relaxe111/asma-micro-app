@@ -27,6 +27,8 @@
 
 English｜[简体中文](./README.zh-cn.md)｜[Documentation](https://jd-opensource.github.io/micro-app/)｜[Discussions](https://github.com/jd-opensource/micro-app/discussions)｜[WeChat](./Contact.md)
 
+> **Testing**: Parallel AI commit generation + parallel push with 20 workers 🚀
+
 # 📖Introduction
 micro-app is a micro front-end framework launched by JD Retail. It renders based on webcomponent-like and realizes the micro front-end from component thinking, it aiming to reduce the difficulty of getting started and improve work efficiency. 
 
